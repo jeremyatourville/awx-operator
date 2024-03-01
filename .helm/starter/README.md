@@ -210,14 +210,14 @@ AWX:
     enabled: false
     ...
 
-  customVolumes:
-    postgres:
-      enabled: true
-      hostPath: /data/postgres-13
-    projects:
-      enabled: true
-      hostPath: /data/projects
-      size: 1Gi
+customVolumes:
+  postgres:
+    enabled: true
+    hostPath: /data/postgres-13
+  projects:
+    enabled: true
+    hostPath: /data/projects
+    size: 1Gi
 ```
 
 ## Values Summary
